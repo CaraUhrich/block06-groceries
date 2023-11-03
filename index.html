@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grocery List</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <h1>Cara's Grocery list</h1>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="color: brown">Cara's Grocery list</h1>
     <section class="warm">
-        <h2>Pantry</h2>
-        <div>
-            <h3>Snacks</h3>
-            <ul>
-                <li>Chips</li>
-                <li>Candy</li>
-                <li>Apples</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Ingredients</h3>
-            <ul>
-                <li>Pasta</li>
-                <li>Sauce</li>
-                <li>Beans</li>
-            </ul>
-        </div>
-        <img src="https://www.budgetbytes.com/wp-content/uploads/2021/10/One-Pot-Veggie-Pasta-bowl.jpg" />
+      <h2>Pantry</h2>
+      <div class="listblock" id="w1">
+        <h3>Snacks</h3>
+        <ul>
+          <li>Chips</li>
+          <li>Candy</li>
+          <li>Apples</li>
+        </ul>
+      </div>
+      <div class="listblock" id="w2">
+        <h3>Ingredients</h3>
+        <ul>
+          <li>Pasta</li>
+          <li>Sauce</li>
+          <li>Beans</li>
+        </ul>
+      </div>
+      <img
+        src="https://www.budgetbytes.com/wp-content/uploads/2021/10/One-Pot-Veggie-Pasta-bowl.jpg"
+      />
     </section>
     <section class="cold">
-        <h2>Fridge</h2>
-        <div>
-            <h3>Chilled</h3>
-            <ul>
-                <li>Iced Tea</li>
-                <li>Just Egg</li>
-                <li>Lettuce</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Frozen</h3>
-            <ul>
-                <li>Ice Cream</li>
-                <li>Nuggets</li>
-                <li>Bao</li>
-            </ul>
-        </div>
-        <img src="https://www.twopeasandtheirpod.com/wp-content/uploads/2021/07/banana-split-9-500x500.jpg" />
+      <h2>Fridge</h2>
+      <div class="listblock" id="c1">
+        <h3>Chilled</h3>
+        <ol>
+          <li>Iced Tea</li>
+          <li>Just Egg</li>
+          <li>Lettuce</li>
+        </ol>
+      </div>
+      <div class="listblock" id="c2">
+        <h3>Frozen</h3>
+        <ol>
+          <li>Ice Cream</li>
+          <li>Nuggets</li>
+          <li>Bao</li>
+        </ol>
+      </div>
+      <img
+        src="https://www.twopeasandtheirpod.com/wp-content/uploads/2021/07/banana-split-9-500x500.jpg"
+      />
     </section>
-</body>
+  </body>
 </html>

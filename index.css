@@ -1,12 +1,54 @@
-.warm{
-    background-color: goldenrod;
+.warm {
+  background-color: goldenrod;
+  padding: 10px;
 }
 
-.cold{
-    background-color: azure;
+.cold {
+  background-color: turquoise;
+  padding: 10px;
 }
 
-h1{
-    color: brown;
+.listblock {
+  display: inline-block;
+  width: 27vw;
+  margin: 5px 5px;
+  border: solid white;
 }
 
+h2 {
+  background-color: white;
+  color: navy;
+  text-align: center;
+  padding: 5px 0;
+}
+
+h3 {
+  text-align: center;
+  background-color: white;
+  padding: 5px 0;
+}
+
+img {
+  display: inline-block;
+  width: 26vw;
+  padding: 5px;
+  margin: 5px 5px;
+  border: solid white;
+  vertical-align: bottom;
+}
+
+#w1 {
+  background-color: gold;
+}
+
+#w2 {
+  background-color: orange;
+}
+
+#c1 {
+  background-color: aquamarine;
+}
+
+#c2 {
+  background-color: azure;
+}
